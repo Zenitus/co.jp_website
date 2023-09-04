@@ -21,7 +21,7 @@
     <style>
         .japlangmenu,
         .japlang {
-            display: none;
+            display: block;
         }
     </style>
 </head>
