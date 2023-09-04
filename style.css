@@ -457,6 +457,13 @@ strong {
 }
 
 /*---------------------------------------------------  TechStack CSS ---------------------------------------------------   */
+.customer_img img {
+  height: 75%;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
 .t_card_title {
   color: #084fa0;
 }
@@ -587,7 +594,10 @@ strong {
 }
 
 .jp_map_btn {
-  padding-top: 22px;
+  padding-top: 47px;
+}
+.sg_map_btn {
+  padding-top: 28px;
 }
 
 .phone h5 {
