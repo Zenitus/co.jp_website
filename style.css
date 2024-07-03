@@ -29,7 +29,15 @@ picture,
 svg {
   max-width: 100%;
 }
+.certification_section {
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
 
+.certification_section img {
+  margin: 0 auto; /* Ensure images are centered within their columns */
+  padding-right: 12px;
+}
 a {
   text-decoration: none;
 }
@@ -86,6 +94,10 @@ section {
   position: fixed;
 }
 
+.social_icons {
+  padding-left: 30px;
+}
+
 /* --------------------------------------------------- Home ---------------------------------------------------  */
 .zenitus {
   color: hsl(212, 90%, 33%);
@@ -126,7 +138,7 @@ section {
 }
 
 .sec_heading {
-  color: #7a7a7a;
+  color: #000000;
   text-align: center;
 }
 
@@ -174,7 +186,7 @@ section {
 .customer {
   color: #7a7a7a;
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 45px;
 }
 
@@ -309,7 +321,7 @@ strong {
 }
 
 .join_row {
-  padding-top: 50px;
+  padding-top: 30px;
   /* width: 120%; */
 }
 
@@ -335,6 +347,7 @@ strong {
 
 .leadercard img {
   border-radius: 50%;
+  flex-direction: row;
   /* margin: 0 auto; */
   margin-right: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -418,6 +431,8 @@ strong {
 
 .footer_p {
   text-align: center;
+  font-weight: bold;
+  padding-top: 3px;
 }
 
 /* service css */
@@ -564,6 +579,11 @@ strong {
   height: auto;
   display: flow-root;
 }
+#leadership {
+  background-color: #ededff;
+  height: auto;
+  display: flow-root;
+}
 
 .adjustment {
   display: block;
@@ -594,21 +614,13 @@ strong {
 }
 
 .jp_map_btn {
-  padding-top: 47px;
-}
-.sg_map_btn {
-  padding-top: 28px;
+  padding-top: 24px;
 }
 
 .phone h5 {
   margin-top: 0.8vh;
   margin-left: 1vw;
 }
-
-.private {
-  margin-left: 1vw;
-}
-
 .middle h4 {
   text-align: center;
   color: #fa7e00;
@@ -725,10 +737,12 @@ select {
   background-color: #fa7e00;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 12px;
   font-size: 15px;
   font-weight: 500;
+  width: 48px;
+  height: 49px;
 }
 
 .mapimage {
@@ -738,6 +752,70 @@ select {
 #myBtn:hover {
   background-color: hsl(212, 90%, 33%);
 }
+/* Testimonials and moments */
+/* Slide Pictures  */
+.testimonials {
+  padding: 100px 0;
+}
+.testimonials-content {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 30px;
+}
+.testimonials-item .info {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials-item img {
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.testimonials-item .name {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: hsl(0, 0%, 0%);
+  line-height: 1.2;
+}
+
+.testimonials-item .job {
+  text-transform: capitalize;
+  color: hsl(0, 0%, 40%);
+}
+
+.testimonials-item p {
+  margin-top: 20px;
+  color: hsl(0, 0%, 40%);
+}
+
+.testimonials .swiper-pagination {
+  position: relative;
+  margin-top: 40px;
+  bottom: auto;
+}
+.testimonials .swiper-pagination-bullet {
+  height: 12px;
+  width: 12px;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.slide_img {
+  padding-top: 10px;
+  width: 50%;
+}
+#carouselMultiItemExample {
+  padding-top: 3.5rem;
+}
+
+.testimonial_controls {
+  padding-top: 2rem;
+}
+
 /* .................................Remove somethings in smallscreens............................ */
 
 @media (prefers-reduced-motion: reduce) {
@@ -826,9 +904,9 @@ select {
     margin-left: 15px;
   }
 
-  .break br {
+  /* .break br {
     content: "";
-  }
+  } */
 
   .adjustment {
     display: none;
@@ -841,6 +919,13 @@ select {
   }
 }
 @media screen and (max-width: 991px) {
+  .leadercard {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #9b9b9b, 0 3px 0px 0 blue, 0 3px 0px 0 #9b9b9b;
+  }
   .careerBG {
     min-height: 40vh !important;
   }
@@ -946,9 +1031,30 @@ select {
   .gallery {
     padding-left: 0px;
   }
+
+  .about_img img {
+    height: 50%;
+    width: 48%;
+    padding-top: 30px;
+  }
+  .join_us_img img {
+    width: 100%;
+    padding-top: 34px;
+    padding-left: 0px;
+  }
+
+  .linked_in_logo {
+    padding-top: 100px;
+  }
+  #myBtn {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  #myBtn {
+    display: none;
+  }
   .card-img-top {
     width: 100%;
     height: 75vw;
@@ -1015,6 +1121,9 @@ select {
     font-size: 18px;
     line-height: 24px;
   }
+  .social_icons {
+    padding-left: 12px;
+  }
 }
 
 @media (max-width: 766px), (max-height: 500) {
@@ -1046,5 +1155,63 @@ select {
     padding-top: 45px;
     padding-left: 18px;
     padding-right: 18px;
+  }
+  .social_icons {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .boxone {
+    /* margin-left: 30px; */
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .contentone {
+    margin-top: 10px;
+  }
+
+  .imgBxone {
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+}
+
+.lineBg {
+  background-image: url(./assets/images/BGProduct.png);
+  background-repeat: no-repeat;
+  background-position: bottom !important;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.boxone {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  justify-content: center; /* add this to center align horizontally */
+}
+
+.imgBxone {
+  margin-right: 10px; /* add some space between image and text */
+}
+
+.contentone {
+  text-align: center;
+  white-space: nowrap; /* add this to prevent text from wrapping to the next line */
+}
+
+/* make it mobile responsive */
+@media only screen and (max-width: 600px) {
+  .boxone {
+    flex-direction: row; /* stack elements vertically on small screens */
+    align-items: center;
+    /* padding-right: 20px; */
+  }
+
+  .imgBxone {
+    margin-bottom: 10px; /* add some space between image and text on small screens */
   }
 }
