@@ -1,0 +1,70 @@
+[
+  {
+    "id": "senior-dev-01",
+    "title": "Senior Software Developer",
+    "hrEmail": "hr@zenitus.com",
+    "description": [
+      "Collaborate with cross-functional teams to gather and analyze software requirements.",
+      "Design, develop, test, and maintain high-quality software applications.",
+      "Write clean, efficient, and maintainable code that adheres to coding standards.",
+      "Participate in code reviews to ensure code quality, consistency, and performance.",
+      "Work closely with UI/UX designers to implement intuitive user interfaces.",
+      "Keep up-to-date with emerging technologies and trends in software development."
+    ],
+    "country": "Japan",
+    "industry": "IT Industry",
+    "japaneseLevel": "N2",
+    "experience": "5 to 10 years"
+  },
+  {
+    "id": "frontend-01",
+    "title": "VB.Net Developer",
+    "hrEmail": "hr@zenitus.com",
+    "description": [
+      "VB.NET PG class recruitment *Currently under manufacturing and unit testing",
+      "Experience with Windows Oracle ASP.NET",
+      "Collaborate with cross-functional teams to gather and define software requirements.",
+      "Design, develop, and maintain VB.NET applications and solutions.",
+      "Participate in code reviews to ensure code quality, maintainability, and performance",
+      "Stay up-to-date with industry trends and emerging technologies to suggest improvements and innovative solutions."
+    ],
+    "country": "Japan",
+    "industry": "IT Industry",
+    "japaneseLevel": "N3",
+    "experience": "2 to 5 years"
+  },
+  {
+    "id": "Project Manager-01",
+    "title": "Project Manager",
+    "hrEmail": "hr@zenitus.com",
+    "description": [
+      "Develop and manage project plans",
+      "Communicate with stakeholders and keep them updated on project progress Negotiate and manage contracts with vendors",
+      "Track and manage project budgets",
+      "Identify and mitigate risks",
+      "Resolve project issues",
+      "Ensure that projects are delivered on time, within budget, and to the required specifications"
+    ],
+    "country": "Japan",
+    "industry": "IT Industry",
+    "japaneseLevel": "N3",
+    "experience": "5 to 8 years"
+  },
+  {
+    "id": "tech-lead-01",
+    "title": "Technical Lead",
+    "hrEmail": "hr@zenitus.com",
+    "description": [
+      "Lead technical teams in the development and implementation of software solutions.",
+      "Define technical architecture and ensure alignment with business objectives.",
+      "Mentor and guide junior developers to improve their skills and performance.",
+      "Participate in code reviews to ensure code quality, maintainability, and performance.",
+      "Collaborate with product managers to translate business requirements into technical specifications.",
+      "Stay up-to-date with industry trends and emerging technologies to suggest improvements and innovative solutions."
+    ],
+    "country": "Japan",
+    "industry": "IT Industry",
+    "japaneseLevel": "N2",
+    "experience": "5 to 10 years"
+  }
+]
